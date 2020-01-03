@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+.mat-toolbar.mat-primary {
+  background-color: #000000;
+}
+
+.mat-button.mat-accent {
+  color: goldenrod;
+}
+
+.mat-raised-button.mat-accent {
+  background-color: slategrey;
+}
+
+.image-selected {
+  color: rgba(0, 0, 0, 0.5);
+  transition: color 0.25s;
+}
+
+.image-selected:hover {
+  color: rgba(0, 0, 0, 0.87);
+  transition: color 0.25s;
+}
+
+.mat-form-field.mat-focused .mat-form-field-label {
+  color: goldenrod;
+}
+
+.mat-form-field.mat-focused .mat-form-field-ripple {
+  background-color: goldenrod;
+}
